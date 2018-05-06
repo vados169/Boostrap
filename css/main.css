@@ -1,76 +1,52 @@
-
 html, body {
-    height: 100%;
-    margin: 0;
-}
+  height: 100%;
+  margin: 0; }
 
-.container{
-    margin: 0;
-    width: 100%;
-
-}
-
-.navbar{
-    border-bottom: 1px solid #a1a1a1;
-    background: rgba(255,255,255,0.9);
-    transition: all .5s;
-    width: 100%;
-    margin: 0;
-    border-radius: 0;
-}
-
-.navbar-default .navbar-nav>li>a{
-    color: black;
-}
-.navbar-default .navbar-nav>li>a:hover{
-    color: white;
-}
-
-.header{
-    height: 94px;
-    padding: 0 24px 24px;
-}
-.navbar-brand{
-    padding:0;
-    height: 100%;
-}
-
-.menu{
+.navbar {
+  border-bottom: 1px solid #a1a1a1;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all .5s;
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  height: 94px;
+  padding: 0 24px 24px; }
+  .navbar .navbar-brand {
+    padding: 0;
+    height: 100%; }
+  .navbar .navbar-nav {
     float: right;
     height: 94px;
-    padding: 24px;
-}
-.menu li {
+    padding: 24px; }
+    .navbar .navbar-nav > li > a {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 16px;
+      color: #000;
+      border: none;
+      outline: none;
+      vertical-align: middle;
+      margin-right: 100px;
+      border-radius: 3px;
+      transition: all .5s; }
+      .navbar .navbar-nav > li > a:hover {
+        background-color: #DD2027;
+        color: white; }
+    .navbar .navbar-nav .activ a {
+      background-color: #DD2027; }
+
+.container {
+  margin: 0;
+  width: 100%; }
+
+.top {
+  padding: 0; }
+  .top span {
     display: inline-block;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 16px;
-    color: #000;
-    border: none;
-    outline: none;
-    vertical-align: middle;
-    margin-right: 100px;
-    border-radius: 3px;
-    background: transparent;
-    transition: all .5s;
-
-}
-
-.menu li:hover {
-    background-color: #DD2027;
-    color: white;
-}
-
-.activ a{
-    background-color: #DD2027;
-}
-
-.top span {
-    display:inline-block;
     position: absolute;
-    top:0;
-    left:0;
-
+    top: 0;
+    left: 0;
     margin-left: 7%;
     margin-top: 20%;
     font-weight: 300;
@@ -83,59 +59,16 @@ html, body {
     color: #fff;
     background: none;
     width: 40%;
+    padding: 10px 30px; }
+  .top img {
+    width: 100%; }
 
-    padding:10px 30px;
-}
-
-.top {
-    padding: 0;
-}
-
-
-.top img{
-    width: 100%;
-}
-
-.in_block .text_anons p{
-    font-weight: bold;
-    color: #000; !important;
-}
-.in_block p{
-    margin-bottom: 4%;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 18px;
-    font-family: 'Open Sans', Verdana, sans-serif;
-    text-transform: none;
-    text-decoration: none;
-    line-height: 27px;
-    color: #565656;
-}
-
-.small_picture img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-
-.small_picture .text_picture p{
-    display: block;
-    margin: 4% auto 4% auto;
-    width: auto;
-}
-.big_picture{
-    padding: 0;
-}
-.big_picture img{
-    width: 100%;
-}
-.big_picture .text_picture p{
+.big_picture {
+  padding: 0; }
+  .big_picture img {
+    width: 100%; }
+  .big_picture .text_picture p {
     margin: 26px 10% 24px 10%;
-}
-
-.text_picture p{
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
@@ -145,56 +78,74 @@ html, body {
     line-height: 24px;
     width: auto;
     color: #a1a1a1;
-    text-align: left;
-}
+    text-align: left; }
 
-.two_left{
-    padding: 0 2% 0 0;
-}
-
-.two_left img{
+.three_picture .two_left {
+  padding: 0 2% 0 0; }
+  .three_picture .two_left img {
     width: 100%;
-    margin-bottom: 4%;
-}
-
-.one_center{
-    padding: 0.7% 4% 3% 0;
-
-}
-.one_center img{
+    margin-bottom: 4%; }
+.three_picture .one_center {
+  padding: 0.7% 4% 3% 0; }
+  .three_picture .one_center img {
     width: 100%;
-    height: 100%;
-}
+    height: 100%; }
+.three_picture .three_text li {
+  font-style: normal;
+  font-size: 16px;
+  font-family: "Open Sans", Verdana, sans-serif;
+  text-transform: none;
+  line-height: 24px;
+  color: #a1a1a1;
+  float: left;
+  width: auto;
+  text-decoration: none; }
 
-.three_text li{
-    font-style: normal;
-    font-size: 16px;
-    font-family: "Open Sans", Verdana, sans-serif;
-    text-transform: none;
-    line-height: 24px;
-    color: #a1a1a1;
-    float: left;
-    width: auto;
-    text-decoration: none;
-}
-
-table {
-    padding: -10%;
-}
-.table_dat h4{
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-    font-family: 'Roboto', Verdana, sans-serif;
-    text-transform: none;
-    text-decoration: none;
-    line-height: 22px;
-    color: #000;
-    margin: 0 0 12px;
-    text-align: center;
-}
-
-.title{
+.in_block .text_anons p {
+  font-weight: bold;
+  color: #000; }
+.in_block p {
+  margin-bottom: 4%;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  font-family: 'Open Sans', Verdana, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 27px;
+  color: #565656; }
+.in_block .small_picture img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+.in_block .small_picture .text_picture p {
+  display: block;
+  margin: 4% auto 4% auto;
+  width: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  font-family: 'Open Sans', Verdana, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 24px;
+  color: #a1a1a1;
+  text-align: left; }
+.in_block .table_dat h4 {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  font-family: 'Roboto', Verdana, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 22px;
+  color: #000;
+  margin: 0 0 12px;
+  text-align: center; }
+.in_block table {
+  padding: -10%; }
+  .in_block table .title {
     background: none !important;
     border-bottom: 1px solid #a1a1a1;
     font-weight: 600;
@@ -204,11 +155,8 @@ table {
     text-transform: none;
     text-decoration: none;
     line-height: 16px;
-    color: #000;
-}
-
-
-th{
+    color: #000; }
+  .in_block table th {
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
@@ -218,13 +166,8 @@ th{
     line-height: 16px;
     color: #565656;
     padding: 10px;
-}
-
-th{
-    vertical-align: middle;
-}
-
-table td{
+    vertical-align: middle; }
+  .in_block table td {
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
@@ -234,16 +177,11 @@ table td{
     line-height: 16px;
     color: #000;
     padding: 10px;
-}
-
-td{
     text-align: left;
-    font-weight: normal;
-    vertical-align: middle;
-}
+    vertical-align: middle; }
 
 @media screen and (max-width: 1470px) {
-    .top span{
+  .top span {
     position: relative;
     margin-top: 0;
     margin-left: 15%;
@@ -258,51 +196,34 @@ td{
     color: #4c4c4c;
     background: none;
     padding: 0;
-    width: auto;
-    }
-}
-
-
-
+    width: auto; } }
 @media screen and (max-width: 1200px) {
+  .navbar-fixed-top {
+    position: relative; }
 
-    .navbar-fixed-top{
-        position: relative;
-    }
-    .menu{
-        height: 140%;
-        margin-left: 25%;
-    }
-    .in_block p{
-        font-size: 15px;
-    }
+  .navbar .navbar-nav {
+    height: 140%;
+    margin-left: 25%; }
 
-    .text_picture p{
-        font-size: 13px;
-    }
+  .in_block .small_picture .text_picture p, .three_picture .three_text li {
+    font-size: 13px; }
 
-    .three_text li{
-        font-size: 13px;
-    }
+  .three_picture .three_text ol {
+    padding-left: 30px; }
 
-    .table_dat h4{
-        font-size: 13px;
-        line-height: 22px;
-    }
-    .title{
-        font-size: 13px;
-        line-height: 13px;
-    }
-    table th{
+  .in_block .small_picture .text_picture p {
+    font-size: 13px; }
+  .in_block p {
+    font-size: 15px; }
+  .in_block .table_dat h4 {
+    font-size: 13px;
+    line-height: 22px; }
+  .in_block .title {
+    font-size: 13px;
+    line-height: 13px; }
+  .in_block table th, .in_block table td {
+    font-size: 13px;
+    line-height: 13px;
+    padding: 7px; } }
 
-        font-size: 13px;
-        line-height: 13px;
-        padding: 7px;
-    }
-
-    table td{
-        font-size: 13px;
-        line-height: 13px;
-        padding: 7px;
-    }
-}
+/*# sourceMappingURL=main.css.map */
