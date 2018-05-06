@@ -1,0 +1,22 @@
+
+.vid {
+    margin-top: 5%;
+    padding: 16px 0 16px 16px;
+}
+.vid .vid_item {
+    display: block;
+    padding-top: 3%;
+}
+
+@media screen and (max-width: 1060px) {
+
+    .vid_item {
+        height: 225px;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .vid .vid_item {
+        width: 85%;
+    }
+}
